@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="quienesquien:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>quienesquien</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="quienesquien-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="quienesquien:war exploded" />
+    </root>
+  </artifact>
+</component>
